@@ -135,10 +135,5 @@ This application is for informational purposes only and should not replace profe
  Sanket Vishwakarma (Team Leader)
  Shaiendra Vishwakarma 
  Shashwat Sen
-<<<<<<< HEAD
- Saransh Sahu# FitBuddy
-# FitBuddy
-=======
  Saransh Sahu
  # FitBuddy
->>>>>>> f56f17136f54943e55bc5513eceb11419b5d9f9a

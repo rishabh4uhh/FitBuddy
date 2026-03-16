@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Your Workout Plan</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:#f4f6f9;
+margin:0;
+padding:20px;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0px 4px 15px rgba(0,0,0,0.2);
+}
+
+h1{
+text-align:center;
+color:#2a5298;
+}
+
+.plan{
+background:#f8f9fa;
+padding:20px;
+border-radius:8px;
+margin-top:20px;
+}
+
+.tip{
+background:#eaf4ff;
+padding:15px;
+border-left:5px solid #2a5298;
+margin-top:20px;
+}
+
+textarea{
+width:100%;
+height:100px;
+padding:10px;
+}
+
+button{
+padding:10px 20px;
+background:#2a5298;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#1e3c72;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Welcome {{ username }}</h1>
+
+<h3>Goal: {{ goal }}</h3>
+<h3>Intensity: {{ intensity }}</h3>
+
+<div class="plan">
+
+<h2>Your Workout Plan</h2>
+
+<pre>{{ workout_plan }}</pre>
+
+</div>
+
+<div class="tip">
+
+<h3>Nutrition Tip</h3>
+
+<p>{{ nutrition_tip }}</p>
+
+</div>
+
+<h3>Give Feedback</h3>
+
+<form action="/submit-feedback" method="post">
+
+<input type="hidden" name="user_id" value="{{ user_id }}">
+
+<textarea name="feedback" placeholder="Example: exercises too hard or need more cardio"></textarea>
+
+<br><br>
+
+<button type="submit">Update Plan</button>
+
+</form>
+
+<br>
+
+<a href="/view-all-users">View All Users</a>
+
+</div>
+
+</body>
+</html>

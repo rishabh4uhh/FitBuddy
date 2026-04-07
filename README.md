@@ -133,7 +133,7 @@ This application is for informational purposes only and should not replace profe
 #TEAM MEMBERS
 
  Sanket Vishwakarma (Team Leader)
- Shaiendra Vishwakarma 
+ Shailendra Vishwakarma 
  Shashwat Sen
  Saransh Sahu
  # FitBuddy

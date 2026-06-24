@@ -135,5 +135,5 @@ This application is for informational purposes only and should not replace profe
  Sanket Vishwakarma (Team Leader)
  Shailendra Vishwakarma 
  Shashwat Sen
- Saransh Sahu
+
  # FitBuddy
